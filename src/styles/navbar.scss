@@ -5,7 +5,6 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  color: yellow;
 
   .logo {
     font-family: "Anton", bold;
@@ -29,6 +28,5 @@
   .pages :hover {
     color: white;
     cursor: pointer;
-    background-color: rebeccapurple;
   }
 }
