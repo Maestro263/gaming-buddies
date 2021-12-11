@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 import "./styles/App.scss";
+
+import logo from "./images/gamemeet.png";
+
 import Home from "./components/Home";
 import AboutUs from "./components/AboutUs";
 import Contact from "./components/Contact";
@@ -10,19 +13,26 @@ function App() {
     <Router>
       <div className="App">
         <div className="navigation">
-          <h1 className="logo">Gaming Buddies</h1>
+          <img src={logo} alt="GameMeet Logo" width="auto" height="70" />
+
           <ul className="pages">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" className="firstNav">
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link to="/about" className="secondNav">
+                About Us
+              </Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>
             </li>
             <li>
-              <Link to="/login">Log in</Link>
+              <Link to="/login" className="thirdNav">
+                Log in
+              </Link>
             </li>
           </ul>
         </div>

@@ -4,7 +4,7 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <div className="home">
-      <h1>Gaming Buddies</h1>
+      <h1>GameMeet</h1>
       <iframe
         width="560"
         height="315"

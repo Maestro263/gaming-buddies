@@ -3,7 +3,12 @@ import "../styles/footer.scss";
 const Footer = () => {
   return (
     <div className="footer">
-      <p>This is the footer</p>
+      <ul className="footerNav">
+        <li>Forside</li>
+        <li>Kontakt</li>
+        <li>Log ind</li>
+      </ul>
+      <div className="some"></div>
     </div>
   );
 };

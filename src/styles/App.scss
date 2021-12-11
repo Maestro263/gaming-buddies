@@ -1,10 +1,9 @@
 * {
   background-color: black;
-  color: wheat;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
 
 .navigation {
   display: flex;
@@ -12,6 +11,15 @@
   justify-content: space-between;
   a {
     text-decoration: none;
+  }
+  .firstNav {
+    color: green;
+  }
+  .secondNav {
+    color: red;
+  }
+  .thirdNav {
+    color: yellow;
   }
 
   .logo {
@@ -26,9 +34,11 @@
     justify-content: space-around;
     align-items: center;
     width: 30%;
+
     li {
       border-radius: 24%;
-      font-family: "Roboto";
+      font-family: "Poppins";
+
       a {
         padding: 15px;
       }
