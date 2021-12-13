@@ -1,4 +1,5 @@
 import Footer from "./Footer";
+import "../styles/Contact.scss";
 
 const Contact = () => {
   return (
@@ -19,6 +20,17 @@ const Contact = () => {
             <b>Addresse:</b> Nørre Voldgade 13, 1358 København
           </p>
           <p>Vi kan kontaktes mandag-fredag mellem 9:00-17:00</p>
+        </div>
+        <div className="contact-box">
+          <form>
+            <input type="text" name="name" placeholder="Navn" />
+            <input type="text" name="mail" placeholder="Email" />
+            <textarea
+              placeholder="Skriv din besked"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </form>
         </div>
       </div>
       <iframe
