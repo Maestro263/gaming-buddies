@@ -1,16 +1,19 @@
 .footer {
   position: absolute;
-  bottom: 0;
+  margin-top: 10%;
   left: 0;
-  background-color: lightgray;
-  justify-content: space-between;
   width: 100%;
   .footerNav {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-  }
-  p {
-    background-color: lightgray;
+    justify-content: space-evenly;
+    align-items: center;
+    a {
+      text-decoration: none;
+    }
+    .youtubeLogo {
+      padding: 5px;
+    }
   }
 }

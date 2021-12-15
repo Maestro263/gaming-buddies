@@ -12,7 +12,7 @@ const Home = () => {
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellat

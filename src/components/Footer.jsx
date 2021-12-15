@@ -1,14 +1,43 @@
+import IGLogo from "../images/Instagram.svg";
+import YoutubeLogo from "../images/Youtube.png";
+import FacebookLogo from "../images/Facebook.svg";
+
+import { Link } from "react-router-dom";
+
 import "../styles/footer.scss";
 
 const Footer = () => {
   return (
     <div className="footer">
       <ul className="footerNav">
-        <li>Forside</li>
-        <li>Kontakt</li>
-        <li>Log ind</li>
+        <li>
+          <Link to="/" style={{ color: "yellow" }}>
+            Forside
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact" style={{ color: "red" }}>
+            Kontakt
+          </Link>
+        </li>
+        <li>
+          <Link to="/login" style={{ color: "blue" }}>
+            Log ind
+          </Link>
+        </li>
+        <img src={IGLogo} alt="Instagram Logo" width="50" height="50" />
+        <img
+          src={YoutubeLogo}
+          alt="Youtube Logo"
+          width="40"
+          height="40"
+          className="youtubeLogo"
+        />
+        <img src={FacebookLogo} alt="Facebook Logo" width="50" height="50" />
+        <li style={{ color: "green" }}>Regler</li>
+        <li style={{ color: "purple" }}>Om Os</li>
+        <li style={{ color: "orange" }}>Vilkårer</li>
       </ul>
-      <div className="some"></div>
     </div>
   );
 };
