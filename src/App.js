@@ -12,7 +12,9 @@ function App() {
     <Router>
       <div className="App">
         <div className="navigation">
-          <img src={logo} alt="GameMeet Logo" width="auto" height="70" />
+          <Link to="/">
+            <img src={logo} alt="GameMeet Logo" width="auto" height="70" />
+          </Link>
 
           <ul className="pages">
             <li>
