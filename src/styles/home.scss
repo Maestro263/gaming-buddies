@@ -1,9 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
 
+$small: 300px;
+$medium: 900px;
+
 .home {
   color: white;
   text-align: center;
   margin: auto;
   width: 60%;
   font-family: "Poppins";
+}
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+  .home {
+    margin: auto;
+    iframe {
+      width: 300px;
+      height: auto;
+    }
+  }
 }

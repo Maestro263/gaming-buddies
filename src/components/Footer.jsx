@@ -25,21 +25,28 @@ const Footer = () => {
             Log ind
           </Link>
         </li>
-        <a target="_blank" href="https://www.instagram.com/">
-          <img src={IGLogo} alt="Instagram Logo" width="50" height="50" />
-        </a>
-        <a target="_blank" href="https://www.youtube.com/">
-          <img
-            src={YoutubeLogo}
-            alt="Youtube Logo"
-            width="40"
-            height="40"
-            className="youtubeLogo"
-          />
-        </a>
-        <a target="_blank" href="https://www.facebook.com/">
-          <img src={FacebookLogo} alt="Facebook Logo" width="50" height="50" />
-        </a>
+        <div className="some">
+          <a target="_blank" href="https://www.instagram.com/" rel="noreferrer">
+            <img src={IGLogo} alt="Instagram Logo" width="50" height="50" />
+          </a>
+          <a target="_blank" href="https://www.youtube.com/" rel="noreferrer">
+            <img
+              src={YoutubeLogo}
+              alt="Youtube Logo"
+              width="40"
+              height="40"
+              className="youtubeLogo"
+            />
+          </a>
+          <a target="_blank" href="https://www.facebook.com/" rel="noreferrer">
+            <img
+              src={FacebookLogo}
+              alt="Facebook Logo"
+              width="50"
+              height="50"
+            />
+          </a>
+        </div>
         <li style={{ color: "green" }}>Regler</li>
         <li style={{ color: "purple" }}>Om Os</li>
         <li style={{ color: "orange" }}>Vilkårer</li>
