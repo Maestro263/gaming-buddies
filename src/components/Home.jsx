@@ -14,13 +14,15 @@ const Home = () => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
+      <h2>Velkommen til GameMeet</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellat
-        reiciendis minus nulla recusandae dignissimos ipsam ullam ipsum
-        molestiae eum, quibusdam vitae alias sed debitis similique obcaecati
-        molestias vero doloribus nostrum laboriosam quaerat facere tempore. Eos
-        numquam perspiciatis ratione aperiam ad sed nemo pariatur consectetur
-        dolorem at totam, incidunt molestiae.
+        Velkommen til et revolutionært koncept inden for gaming. Her er det
+        muligt for dig at chatte med dine venner, og på samme tid skabe nye
+        venner. Du vil kunne joine forskellige events inden for det game du
+        foretrækker. Så hvis du foretrækker Counter Strike, Fortnite eller Call
+        of Duty, så sørger denne platform for at hjælpe dig med at møde gaming
+        venner, som deler samme passion som dig. Så skynd dig at skab en profil
+        og begynd at chatte med nye venner med fælles interesser.
       </p>
       <Footer />
     </div>
