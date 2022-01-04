@@ -39,9 +39,12 @@ function App() {
                 </Link>
               </li>
               <li>
-                <Link to="/login" className="thirdNav">
+                <a
+                  href="https://nifty-montalcini-3382e1.netlify.app/"
+                  className="thirdNav"
+                >
                   Log ind
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

@@ -35,6 +35,7 @@ const Contact = () => {
             <a
               href="http://maps.google.com/?q=Nørre Voldgade 13, 1358 København"
               target="_blank"
+              rel="noreferrer"
             >
               Nørre Voldgade 13, 1358 København
             </a>
