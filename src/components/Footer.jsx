@@ -21,9 +21,12 @@ const Footer = () => {
           </Link>
         </li>
         <li>
-          <Link to="/login" style={{ color: "blue" }}>
+          <a
+            href="https://nifty-montalcini-3382e1.netlify.app/"
+            style={{ color: "blue" }}
+          >
             Log ind
-          </Link>
+          </a>
         </li>
         <div className="some">
           <a target="_blank" href="https://www.instagram.com/" rel="noreferrer">
